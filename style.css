@@ -1,0 +1,304 @@
+@font-face {
+    font-family:poppin ;
+    src: url(font/Inter-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppin;
+    text-align: center;
+    }
+body{
+   
+    background-image: url(image/pngtree-vector-school-bag-calculator-cyan-cartoon-banner-image_166801.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.main{
+   
+     margin: auto;
+    width: 22%;
+    height: 400px;
+    background-color: rgba(153, 227, 240, 0.507);
+    border-radius:20px ;
+    box-shadow: 5px 5px 5px 0px rgba(12, 96, 129, 0.397);
+
+   
+   }
+   .main #inp{
+   width: 81%;
+   padding: 15px;
+   border-radius: 10px;
+   position: relative;
+   top: 5px;
+   left: 3px;
+   color: black;
+   border:10px double rgba(179, 152, 152, 0.863);
+   font-size: x-large;
+    
+}
+   .main_cal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 123%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    right: 12%;
+
+}
+button{
+    background-color: rgb(253, 252, 252);
+}
+.btn_cal{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    border: 5px double rgba(179, 152, 152, 0.863);
+    border-radius: 10%;
+    font-family: poppin;
+    font-size: 20px;
+    text-align: center; 
+    background-color: rgb(15, 51, 56);
+    color: white;
+}
+.btn_cal:hover{ 
+    transform: scale(1.1);
+    background-color: white;
+    color: #000;
+    transition: 3s;
+   
+}
+#btn_cal{
+    width: 158px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(14, 61, 75, 0.719); 
+}
+#btn_cal:hover{
+   background-color:  rgba(235, 152, 194, 0.76);
+    color: #000;
+   
+}
+#del{
+    background-color: rgba(14, 61, 75, 0.719);
+}
+#AC{
+    background-color: rgba(14, 61, 75, 0.719);
+}
+#del:hover{
+    background-color: rgba(235, 152, 194, 0.76);
+    color: #000;
+   
+}
+
+#AC:hover{
+    background-color: rgba(235, 152, 194, 0.76);
+    color: #000;
+   
+}
+.hori{
+    position: relative;
+    top: 25px;
+    left: 0px;
+    width: 300px;
+
+}
+h3{
+    color: rgb(5, 5, 5);
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+h5{
+    color: rgb(5, 5, 5);
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+#png{
+   position: relative;
+   right: 12px;
+   bottom: 8px;
+   border: 1px solid black;
+   display: flex;
+   justify-content: end;
+   float: right;
+
+}
+@media screen and (max-width: 1300px) {
+
+
+
+    .main {
+            width: 35%;
+            height: 600px; 
+           
+    
+    }
+    .main #inp{
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .main_cal{
+    
+        width: 100%;
+        position: relative;
+        left: 2%;
+        box-sizing: border-box;
+       
+    }
+    .hori{
+        position: relative;
+        top: 25px;
+        width: 100%;
+        box-sizing: border-box;
+    
+    }
+    h3{
+        
+        position: relative;
+     
+    }
+    h5{
+        color: white;
+
+    }
+    .btn_cal{
+    
+        height: 50px;
+        padding: 30px;
+        box-sizing: border-box;
+        position: relative;
+        right:6px;
+
+    }
+    #btn_cal{
+        width: 217px;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .main {
+            width: 50%; 
+           
+ 
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .main {
+            width: 70%; 
+           
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .main {
+            width:85%; 
+           
+    }
+    
+}
+@media screen and (max-width: 370px) {
+    .main {
+            width:90%; 
+            height: 550px;
+           
+    }
+    .btn_cal{
+    
+        height: 25px;
+        padding: 25px;
+        box-sizing: border-box;
+      
+
+    }
+    #btn_cal{
+        width: 190px;
+        height: 25px;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .main {
+            width:100%; 
+            height: 550px;
+           
+    }
+    .btn_cal{
+    
+        height: 25px;
+        padding: 25px;
+        box-sizing: border-box;
+      
+
+    }
+    #btn_cal{
+        width: 190px;
+        height: 25px;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    
+}
+@media screen and (min-width: 1300px) {
+    
+    body{
+   
+        background-image: url(image/pngtree-vector-school-bag-calculator-cyan-cartoon-banner-image_166801.jpg);
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+    }
+
+    .main {
+            width:35%; 
+            height: 600px;
+           
+    }
+    .btn_cal{
+    
+        height: 30px;
+        padding: 30px;
+        box-sizing: border-box;
+
+
+    }
+    #btn_cal{
+        width: 215px;
+        height: 35px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .hori{
+         width: 100%;
+         box-sizing: border-box;
+    }
+    .main #inp{
+        width: 99%;
+        box-sizing: border-box;
+
+    }
+    h3{
+        font-size: 35px;
+    }
+    h5{
+        font-size:20px ;
+    }
+}

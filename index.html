@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head_1" >Calculator</h1>
+
+   <div class="main">
+          <div>
+             <input disabled type="text" id="inp">
+          </div>
+
+          <h3>Casio</h3>
+          <h5>fx-891EX</h5>
+          <img width="30" height="30" id="png" src="https://img.icons8.com/ios-glyphs/30/sun--v1.png" alt="sun--v1"/>
+
+         <hr class="hori">
+
+      <div class="main_cal">
+
+          <div class="row">
+              <button class="btn_cal"  onclick="calculator(7)">7</button>
+              <button class="btn_cal" onclick="calculator(8)">8</button>
+              <button class="btn_cal" onclick="calculator(9)">9</button>
+              <button id="del" class="btn_cal" onclick="del('DEL')">DEL</button>
+          </div>
+
+          <div class="r_1">
+              <button class="btn_cal" onclick="calculator(4)">4</button>
+              <button class="btn_cal" onclick="calculator(5)">5</button>
+              <button class="btn_cal" onclick="calculator(6)">6</button>
+              <button class="btn_cal" onclick="calculator('/')">➗</button>
+          </div> 
+ 
+          <div class="r_2">
+              <button class="btn_cal" onclick="calculator(1)">1</button>
+              <button class="btn_cal" onclick="calculator(2)">2</button>
+              <button class="btn_cal" onclick="calculator(3)">3</button>
+              <button class="btn_cal"onclick="calculator('*')">x</button>
+          </div>
+
+          <div class ="r_3">
+      
+              <button class="btn_cal" onclick="calculator(0)">0</button>
+              <button class="btn_cal" onclick="calculator('.')">.</button>
+              <button class="btn_cal" onclick="calculator('+')">+</button>
+              <button class="btn_cal" onclick="calculator('-')">-</button>
+       
+          </div>
+       
+          <div class="r_4">
+               <button class="btn_cal" id="AC" onclick="clr_digit('CLR')">AC</button>
+               <button class="btn_cal" id="btn_cal" onclick="result('=')">=</button>
+       
+           </div>
+
+        </div>  
+
+    </div>
+  <script src="app.js"></script>  
+</body>
+</html>
